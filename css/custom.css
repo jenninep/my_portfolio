@@ -57,6 +57,13 @@ h2{
 .footer-below{
 	color:#68147C;
 }
+#profilePic{
+	border-radius: 8px;
+	max-width: 230px;
+	border: 1px solid white;
+	display: block;
+    margin: 0 auto;
+}
 
 
 
