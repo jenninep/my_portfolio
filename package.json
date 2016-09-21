@@ -8,6 +8,10 @@
     "type": "MIT",
     "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
