@@ -19,13 +19,17 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: 'application/vnd.api+json'}));
 
+//lets the server recognize the js files
+app.use(express.static('public'));
+
+
+
 //displaying data from the home.html file
 app.get('/', function(req,res){
 	res.sendfile(path.join(__dirname, 'public/index.html'));
 });
 
-//lets the server recognize the js files
-app.use(express.static('public'));
+
 
 //starts the server with the listening queue
 app.listen(PORT, function(){
