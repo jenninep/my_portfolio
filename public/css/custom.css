@@ -21,7 +21,7 @@
 	color: #68147C;
 }
 section{
-	background: url('pg3.png') repeat;
+	background: url('logoGreen.png') repeat;
 }
 
 #logo{
@@ -31,7 +31,7 @@ section{
 	background: url('pg1_pattern.png') repeat;
 }
 #contact{
-	background: url('orange.png') repeat;
+	background: url('logoGreen.png') repeat;
 }
 .footer-above{
 	background: url('pg1_pattern.png') repeat;
@@ -40,7 +40,8 @@ section{
 	background: url('navbar.png') repeat;
 }
 .form-group{
-	background-color: #fedb33;
+	background-color: #9cfed2;
+	border-bottom: 1px solid #18bc9c;
 }
 h2{
 	border-bottom-style: double;
@@ -49,10 +50,11 @@ h2{
     display: -webkit-inline-box;
 }
 #title{
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 }
 #buttonRow{
 	background-color: transparent;
+	border-bottom: transparent;
 }
 .footer-below{
 	color:#68147C;
@@ -63,8 +65,17 @@ h2{
 	border: 1px solid white;
 	display: block;
     margin: 0 auto;
+    margin-bottom: 30px;
+}
+.img-centered {
+    margin: 0 auto;
+    margin-top: 45px;
 }
 
+.btn-social, .btn-outline{
+	color: #333;
+	border: 2px solid #333;
+}
 
 
 
