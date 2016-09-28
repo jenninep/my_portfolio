@@ -37,7 +37,7 @@ section{
 	background: url('pg1_pattern.png') repeat;
 }
 .footer-below{
-	background: url('navbar.png') repeat;
+	background: url('footer.png') repeat;
 }
 .form-group{
 	background-color: #9cfed2;
@@ -57,7 +57,7 @@ h2{
 	border-bottom: transparent;
 }
 .footer-below{
-	color:#68147C;
+	color:#5dd39e;
 }
 #profilePic{
 	border-radius: 8px;
@@ -77,5 +77,23 @@ h2{
 	border: 2px solid #333;
 }
 
+.modal-content{
+	background: url('modal.png') repeat;	
+}
 
 
+a{
+	color: #af23af;
+}
+
+.carousel-control{
+	width: initial;
+}
+
+.carousel-indicators{
+	bottom: -15px;
+}
+
+/*.portfolio-modal .modal-content h2{
+	margin-bottom: 40px;
+}*/
