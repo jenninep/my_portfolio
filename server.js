@@ -35,8 +35,8 @@ app.post('/send', function(req, res, next){
 	    from: '"Me" <foo@blurdybloop.com>', // sender address
 	    to: 'jenninepun@gmail.com', // list of receivers
 	    subject: 'Hello ✔', // Subject line
-	    text: 'You have a new submission', // plaintext body
-	    html: '<p>you have a new submission with the following details..</p><ul><li>Name: ' + req.body.name+'</li></ul>'
+	    text: 'You have a new submission with the following details ...Name: ' +req.body.name+ 'Email: ' +req.body.email+ 'Message: ' +req.body.message, // plaintext body
+	    html: '<p>you have a new submission with the following details..</p><ul><li>Name: ' +req.body.name+ '</li><li>Email: '+req.body.email +'</li><li>Message: ' +req.body.message+'</li></ul>'
 	};
 
 	transporter.sendMail(mailOptions, function(error, info){
